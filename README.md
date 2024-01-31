@@ -45,6 +45,11 @@ python manage.py runserver
 5. Do this in your terminal to run the program in your web browser.
 6. You will get a link of your web page open that link to see the final paginated response.
 
+
+![Screenshot (1)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/de450ba8-39a3-4bf6-9882-d66b8bba02f5)
+![Screenshot (2)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/860028c7-4a71-4ec3-823b-a5d140786b32)
+![Screenshot (3)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/bdac1057-dbee-4547-bdc2-47ad4c5d9f68)
+
 # API -
 ```buildoutcfg
 https://www.googleapis.com/youtube/v3/search?part=snippet&q=football&maxResults=1&type=video&eventType=completed&order=date&key=AIzaSyB9QNacHSAQ4deQp4RjVf3gXZOKXtMCwJk
@@ -111,6 +116,3 @@ AIzaSyDa1vWMOyRYGq4Qv4Lg_AelhTAiHw4E7OQ
   ]
 }
 ```
-![Screenshot (1)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/de450ba8-39a3-4bf6-9882-d66b8bba02f5)
-![Screenshot (2)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/860028c7-4a71-4ec3-823b-a5d140786b32)
-![Screenshot (3)](https://github.com/ayushtjsr/Youtube_API_Django/assets/69640483/bdac1057-dbee-4547-bdc2-47ad4c5d9f68)
