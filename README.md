@@ -1,15 +1,12 @@
 
-# YouTube_API
+# Youtube_API_Django
 This Project is developed in Django Python.
 
 # Project Goal - 
 To make an API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
 
-# What this Project basically does is - 
-```buildoutvfg
-1. Uses YouTube API to fetch list of videos of certain search keyword
-2. Stores it in dictionary
-3. Displays that dictionary in web page in paginated response
+Project Detail-
+Implemented this project using Django with the latest Async views. Created an app api inside the django project.Under the views of the api enabled the latest django async features. Also created a model for the videos with a GET API which returns the stored video data sorted in descending order of published datetime
 ```
 
 # Result - 
@@ -19,7 +16,7 @@ After running this django project in your local system the final paginated respo
 
 # Functionality Covered -
 ```buildoutcfg
-- Server call the YouTube API continuously in background with some interval (here - 20 seconds)
+- Server call the YouTube API continuously in background with some interval (here - 10 seconds)
 - Fetch the latest videos for a predefined search query (here - "Football")
 - Stores the data of videosin a database with proper indexes (here - Index starts with 1)
 - A GET API which returns the stored video data in a paginated response sorted in descending order of published datetime.
